@@ -1,0 +1,58 @@
+/* NavBar.css */
+
+.navbar {
+  background-color: #E2C6A0; /* Tan color */
+  position: fixed; /* Fixed position at the top */
+  width: 100%; /* Full width */
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Background color when the user scrolls down */
+.navbar.scrolled {
+  background-color: #333; /* Dark brown color */
+}
+
+.navbar-menu {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center items */
+  align-items: center;
+  height: 100%;
+  max-width: 1200px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #333; /* Default link color */
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+}
+
+/* Change link color when the navbar is scrolled */
+.navbar.scrolled .navbar-menu a {
+  color: #F3E8D9; /* Tan color for links */
+}
+
+.navbar-menu li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-menu li:hover {
+  background-color: #8B7D6A;
+  a {
+    color: #F3E8D9;
+  }
+}
+
+.navbar.scrolled .navbar-menu li:hover {
+  background-color: #8B7D6A;
+}

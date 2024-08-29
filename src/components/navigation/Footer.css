@@ -1,0 +1,58 @@
+/* Footer.css */
+
+.footer {
+  background-color: #E2C6A0; /* Darker tan color */
+  padding: 20px 0;
+  text-align: center;
+  color: #333; /* Dark text color for contrast */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-menu li {
+  margin: 10px 15px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #333; /* Dark text color for links */
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+}
+
+.footer-menu a:hover {
+  color: #F3E8D9; /* Light tan color on hover */
+}
+
+.social-media {
+  margin: 20px 0; /* Space above and below the icons */
+}
+
+.social-media a {
+  color: #333; /* Dark color for icons */
+  margin: 0 10px;
+  font-size: 1.5rem; /* Icon size */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-media a:hover {
+  color: #F3E8D9; /* Light tan color on hover */
+}
+
+.footer-note {
+  font-family: "Libre Baskerville", serif;
+  font-size: 0.875rem;
+  color: #333; /* Dark text color for contrast */
+}
