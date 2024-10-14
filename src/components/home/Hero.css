@@ -24,6 +24,12 @@
   margin-bottom: 15px;
 }
 
+h1 {
+  font-family: "League Spartan", system-ui;
+  font-size: 3rem; /* Increased font size */
+  margin-bottom: 15px;
+}
+
 .hero-text p {
   margin-bottom: 25px;
 }

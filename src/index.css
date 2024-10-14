@@ -19,22 +19,10 @@ html, body {
   background-color: #F3E8D9; /* Light tan background */
 }
 
-.featured-video h2 {
-  font-family: "League Spartan", system-ui;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
 /* Testimonials CTA Section */
 .testimonials-cta {
   padding: 50px;
   background-color: #E2C6A0; /* Darker tan background */
-}
-
-.testimonials-cta h2 {
-  font-family: "League Spartan", system-ui;
-  font-size: 2rem;
-  margin-bottom: 20px;
 }
 
 .testimonials-cta button {
@@ -59,7 +47,7 @@ html, body {
   background-color: #F3E8D9; /* Light tan background */
 }
 
-.order-now h2 {
+h2 {
   font-family: "League Spartan", system-ui;
   font-size: 2rem;
   margin-bottom: 20px;
@@ -91,4 +79,27 @@ html, body {
 a {
   text-decoration: none !important;
   color: #F3E8D9;
+}
+
+a.lighter {
+  text-decoration: none !important;
+  color: #8B7D6A;
+}
+a.lighter:hover {
+  color: #F3E8D9;
+  background-color: #8B7D6A;
+  text-decoration: none !important;
+}
+
+.header {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.tan-background {
+  background-color: #E2C6A0; /* Darker tan color */
+}
+
+.light-background {
+  background-color: #F3E8D9; /* Light tan color */
 }
