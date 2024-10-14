@@ -9,9 +9,17 @@
   align-items: flex-start;
 }
 
+.featured-products.holder {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .product-categories,
-.featured-products,
 .subscription-info,
+.featured-products,
+.global-presence,
 .order-now {
   margin: 0; /* Remove margin to allow full-width backgrounds */
   padding: 40px; /* Add padding for inner spacing */
@@ -28,9 +36,21 @@
   margin-bottom: 20px; /* Space between products */
 }
 
+.product div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.product div h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .product img {
-  width: 100px; /* Adjust as needed */
-  height: auto;
+  width: 150px; /* Adjust as needed */
+  height: 150px;
+  object-fit: cover;
   margin-right: 20px; /* Space between image and text */
 }
 
@@ -40,7 +60,7 @@
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   margin: 5px;
-  background-color: #333;
+  background-color: #7A4F21;
   color: #F3E8D9;
   border: none;
   cursor: pointer;
@@ -49,5 +69,5 @@
 
 .subscribe-button:hover,
 .order-button:hover {
-  background-color: #8B7D6A;
+  background-color: #5c3b1a;
 }

@@ -23,22 +23,10 @@ html, body {
 .testimonials-cta {
   padding: 50px;
   background-color: #E2C6A0; /* Darker tan background */
-}
-
-.testimonials-cta button {
-  padding: 20px 30px;
-  font-family: "Libre Baskerville", serif;
-  font-size: 1rem;
-  margin: 5px;
-  background-color: #333;
-  color: #F3E8D9;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.testimonials-cta button:hover {
-  background-color: #8B7D6A;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Order Now Section */
@@ -51,21 +39,6 @@ h2 {
   font-family: "League Spartan", system-ui;
   font-size: 2rem;
   margin-bottom: 20px;
-}
-
-.order-now button {
-  padding: 20px 30px;
-  font-family: "Libre Baskerville", serif;
-  font-size: 1rem;
-  background-color: #333;
-  color: #F3E8D9;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.order-now button:hover {
-  background-color: #8B7D6A;
 }
 
 /* Footer */
@@ -82,12 +55,13 @@ a {
 }
 
 a.lighter {
+  font-weight: 900;
   text-decoration: none !important;
-  color: #8B7D6A;
+  color: #333;
 }
 a.lighter:hover {
   color: #F3E8D9;
-  background-color: #8B7D6A;
+  background-color: #5c3b1a;
   text-decoration: none !important;
 }
 
@@ -102,4 +76,23 @@ a.lighter:hover {
 
 .light-background {
   background-color: #F3E8D9; /* Light tan color */
+}
+
+.content {
+  max-width: 800px;
+}
+
+button {
+  padding: 20px 30px;
+  font-family: "Libre Baskerville", serif; /* Updated font family */
+  font-size: 1rem;
+  background-color: #7A4F21; /* Darker button for contrast */
+  color: #F3E8D9; /* Light tan text */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5c3b1a;
 }
